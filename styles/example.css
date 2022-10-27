@@ -22,6 +22,16 @@ body {
 	width: 100%;
 }
 
+#myMaps svg, #myMaps svg g {
+	touch-action: manipulation !important;
+	pointer-events: all !important;
+	-webkit-user-drag: initial !important;
+}
+
+g[style="pointer-events: all;"] {
+	pointer-events: all !important;
+}
+
 #controls {
 	background-color: lightGrey;
 	height: 50px;
